@@ -84,5 +84,34 @@ The project documents:
 09-PORTFOLIO/
 ```
 
-## Scope Note
-This repository documents the BA and solution-design artefacts for the project. Production payer endpoints, exact authentication mechanisms, infrastructure, specific EHR vendor platforms, and production API schemas are not defined in the functional requirements and are therefore not presented as implemented facts.
+
+## Project Status
+
+### Documented
+- Functional requirements: FR-01 to FR-11
+- User stories and acceptance criteria
+- Use Case, DFD, Sequence and Activity models
+- System / Integration Architecture
+- HL7 / FHIR integration documentation
+- API documentation
+- RTM coverage
+- 37 system test cases
+- UAT planning coverage
+
+### Execution / Implementation Status
+The repository currently represents the documented BA and solution-design artefacts. Test execution, UAT sign-off, production deployment, live payer connectivity and production API implementation are not claimed unless evidence is explicitly added.
+
+## Repository Navigation
+
+| Folder | Purpose |
+|---|---|
+| 01_Project_Initiation | Project initiation documentation |
+| 02_Process_Analysis | Workflow and system/process models |
+| 03_Requirements | Functional requirements, user stories and RTM |
+| 04_HL7_FHIR_Integration | Interoperability and API documentation |
+| 05-UAT | User acceptance testing |
+| 06_Data_SQL | Data / SQL artefacts |
+| 07-POWERBI | Reporting / Power BI artefacts |
+| 08_Testing | System test coverage |
+| 09-PORTFOLIO | Recruiter-facing project summary |
+
